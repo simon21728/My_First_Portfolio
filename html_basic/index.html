@@ -1,81 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - Personal Portfolio</title>
+    <title>My Portfolio Homepage</title>
 </head>
 <body>
-
-    <!-- Header -->
+    <!-- Header with navigation -->
     <header>
-        <h1>John Doe</h1>
-        <p>Web Developer | Frontend Enthusiast | Lifelong Learner</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
     </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Main content -->
+    <main>
+        <article>
+            <h1>Welcome to My First Cool Webpage!</h1>
 
-    <!-- Introduction Section -->
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>Hello! I'm John, a passionate web developer with experience in building responsive and interactive web applications. I enjoy learning new technologies and applying them to real-world projects.</p>
-    </section>
+            <p>Hello! This is the first paragraph introducing myself and my interests.</p>
+            <p>In this second paragraph, I talk about my favorite projects and hobbies.</p>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
+            <h2>My Learning Journey</h2>
+            <p>The third paragraph describes the skills I am currently developing, like HTML, CSS, and JavaScript.</p>
 
-        <article class="project">
-            <h3>Personal Portfolio Website</h3>
-            <p>A fully responsive personal portfolio website showcasing my projects and skills using HTML, CSS, and JavaScript.</p>
-            <a href="https://github.com/johndoe/portfolio" target="_blank">View Project</a>
+            <h3>Fun Facts</h3>
+            <p>The fourth paragraph contains fun facts about me and my experiences in tech.</p>
+
+            <p>Want to see my tweets? <a href="tweets.html">Click here!</a></p>
+
+            <a href="https://www.alxafrica.com/" target="_blank">
+                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="300">
+            </a>
+
+            <!-- Container for learners table -->
+            <h2>Some Amazing Learners</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>28</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>21</td>
+                        <td>UK</td>
+                    </tr>
+                </tbody>
+            </table>
         </article>
 
-        <article class="project">
-            <h3>Task Manager App</h3>
-            <p>A task management web app with CRUD functionality to organize tasks and track productivity.</p>
-            <a href="https://github.com/johndoe/task-manager" target="_blank">View Project</a>
-        </article>
-
-        <article class="project">
-            <h3>Weather Dashboard</h3>
-            <p>A weather app that displays real-time weather data using OpenWeatherMap API.</p>
-            <a href="https://github.com/johndoe/weather-dashboard" target="_blank">View Project</a>
-        </article>
-
-    </section>
-
-    <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I have a strong foundation in frontend development, including HTML, CSS, JavaScript, and modern frameworks. I am always exploring new tools and technologies to improve my skills.</p>
-        <ul>
-            <li>Background in Computer Science</li>
-            <li>Experience with responsive and accessible design</li>
-            <li>Hobbies: Coding challenges, blogging, photography</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
-        <p>GitHub: <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></p>
-    </section>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 John Doe</p>
+        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a></p>
     </footer>
-
 </body>
 </html>
